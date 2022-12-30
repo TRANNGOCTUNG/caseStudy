@@ -1,0 +1,32 @@
+#logo{
+    width: 100%;
+    height:350px;
+}
+#picture{
+    text-align: center; font-size: 50px;
+    background-color:lightcoral;
+    margin: 0;
+    border: solid;
+    border-color: red;
+}
+#text{
+    font-family: Arial ;
+    text-align:center; font-size: 25px;
+    background-color: aquamarine;
+    color: blueviolet;
+}
+#text1{
+    font-family: Arial ;
+    text-align:center; font-size: 25px;
+    background-color: aquamarine;
+    color: blueviolet;
+}
+#form {
+   font-family: Arial;
+    width: 1520px;
+    height: 120px;
+    text-align: center;
+    background: lightcoral;
+    font-size: 15px;
+    position: relative;
+}

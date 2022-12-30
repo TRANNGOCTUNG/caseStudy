@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Sell Row</title>
+    <link rel="stylesheet" href="manage.css">
+</head>
+<img src="https://th.bing.com/th/id/OIP.CXmdRCU8SM1SQvfg1NAIUQHaDN?pid=ImgDet&rs=1" id="logo">
+<h1 id="picture"><b>Bảo hiểm nhân thọ</b></h1>
+<a href="https://www.youtube.com/embed/u5s6kmIZ8LM"><h3>Giới thiệu về công ty : Chạm vào tôi để xem</h3></a>
+<div id="text">
+    <p>Đại lý bảo hiểm : Trần Ngọc Tùng </p>
+    <p>Sự hài lòng của khách hàng là tiêu chí của chúng tôi</p>
+</div>
+<body onload="display()">
+<table border="1" style="width:500px; height: 300px" >
+    <p id="show"></p>
+    <tr id="text1">
+        <th colspan="2">Thông tin khách hàng</th>
+    </tr>
+    <tr>
+        <th>Căn cước công dân</th>
+        <td><input type="number" id="cccd"></td>
+    </tr>
+    <tr>
+        <th>Họ và Tên</th>
+        <td><input type="text" id="name"></td>
+    </tr>
+    <tr>
+        <th>Năm sinh</th>
+        <td><input type="text" id="birth"></td>
+    </tr>
+    <tr>
+        <th>Quê quán</th>
+        <td><input type="text" id="hometowm"></td>
+    </tr>
+    <tr>
+        <th>Giới tính</th>
+        <td id="gender">
+            <input type="radio" id="nam" name="gender" value="nam">Nam
+            <input type="radio" id="nu" name="gender" value="nu">Nữ<br><br>
+        </td>
+    </tr>
+    <tr>
+        <th></th>
+        <td><button style="background-color: limegreen" onclick="add()">Add</button></td>
+    </tr>
+</table>
+<div id="form">
+    <p></p>
+    <p>Văn phòng Tổng Đại lý Thái Bình</p>
+    <p> Lô 9A10 đường Lê Quý Đôn , tổ 36, phường Trần Lãm, TP. Thái Bình, Tỉnh Thái Bình</p>
+    <p>T: (0227) 3 744 666</p>
+    <p>F: (0227) 3 744 666</p>
+</div>
+</body>
+<script src="classClient.js"></script>
+<script src="logIn.js"></script>
+</html>
